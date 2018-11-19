@@ -1,4 +1,7 @@
 <?php
-    Echo("teting");
-    Echo("test2");
+
+// Here is to put the info
+echo ("Hello World");
+
+
 ?>
