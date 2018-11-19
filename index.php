@@ -69,7 +69,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 							echo("<img src='images/" . $row[0] . ".jpg' alt='" . $row[1] . "' style='width:100%'>");
 							echo("<h3>" . $row[1] ."</h3>");
 							echo("<p>" . $row[4] . "</p>");
-							echo("<p>" . $row[2] . " to " . $row[3] . "</p>");
+							
+							$dateA = new DateTime($row[2]);
+							$dateB = new DateTime($row[3]);
+							$dateFrom = $dateA->format('d') . "-" . $dateA->format('m') ."-" . $dateA->format('Y');
+							$dateto = $dateB->format('d') . "-" . $dateB->format('m') ."-" . $dateB->format('Y');
+							
+							echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
 							echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
 						echo("</div>");
 						
