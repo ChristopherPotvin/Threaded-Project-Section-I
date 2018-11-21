@@ -105,28 +105,53 @@
 				$conn->close();
 		
 		?>
-		
-		
-		
-		
+    <div class="row">
+        <div class="column">
+          <div class="card">
+              <img src="john.jpg" alt="redpanda" style="width:100%">
+              <div class="container">
+                  <h4><b>Johnathan Pirca</b></h4>
+                  <p>Senior Travel Agent</p>
+                  <p>Johnathanpirca@travelexperts.com</p>
 
-			
+              </div>
+            </div>
+        </div>
 
-			<!-- Pagination 
-			<div class="w3-center w3-padding-32">
-				<div class="w3-bar">
-					<a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-					<a href="#" class="w3-bar-item w3-black w3-button">1</a>
-					<a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-					<a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-					<a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-					<a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-				</div>
-			</div>
-			-->
-  
-			<hr id="about">
+        <div class="column">
+          <div class="card">
+              <img src="chris.jpg" alt="lion" style="width:100%">
+              <div class="container">
+                  <h4><b>Christopher Potvin</b></h4>
+                  <p>Travel Specialist</p>
+                  <p>Chrispotvin@travelexperts.com</p>
+              </div>
+          </div>
+        </div>
 
+        <div class="column">
+          <div class="card">
+              <img src="alex.jpg" alt="gorilla" style="width:100%">
+              <div class="container">
+              <h4><b>Alex Procyk</b></h4>
+              <p>Junior Travel Agent</p>
+              <p>Alexprocyk@travelexperts.com</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="abel.jpg" alt="wolf" style="width:100%">
+            <div class="container">
+                <h3><b>Abel Rojas</b></h3>
+                <p>President of Travel Experts</p>
+                <p>Abelrojas@travelexperts.com</p>
+            </div>
+           </div>
+        </div>
+      </div>
+		
 			<!-- About Section -->
 			<div class="w3-container w3-padding-32 w3-center">  
 				<h3>About Me, The Food Man</h3><br>
