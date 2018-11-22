@@ -114,10 +114,11 @@
 				$conn->close();
 		
 		?>
+    <!-- The start of Chris Potvin's Contact Card Section including css and html elements -->
     <div class="row">
         <div class="column">
           <div class="card">
-              <img src="john.jpg" alt="redpanda" style="width:100%">
+              <img src="images/john.jpg" alt="redpanda" style="width:100%">
               <div class="container">
                   <h4><b>Johnathan Pirca</b></h4>
                   <p>Senior Travel Agent</p>
@@ -129,7 +130,7 @@
 
         <div class="column">
           <div class="card">
-              <img src="chris.jpg" alt="lion" style="width:100%">
+              <img src="images/chris.jpg" alt="lion" style="width:100%">
               <div class="container">
                   <h4><b>Christopher Potvin</b></h4>
                   <p>Travel Specialist</p>
@@ -140,7 +141,7 @@
 
         <div class="column">
           <div class="card">
-              <img src="alex.jpg" alt="gorilla" style="width:100%">
+              <img src="images/alex.jpg" alt="gorilla" style="width:100%">
               <div class="container">
               <h4><b>Alex Procyk</b></h4>
               <p>Junior Travel Agent</p>
@@ -151,7 +152,7 @@
 
         <div class="column">
           <div class="card">
-            <img src="abel.jpg" alt="wolf" style="width:100%">
+            <img src="images/abel.jpg" alt="wolf" style="width:100%">
             <div class="container">
                 <h3><b>Abel Rojas</b></h3>
                 <p>President of Travel Experts</p>
@@ -160,7 +161,7 @@
            </div>
         </div>
       </div>
-		
+		<!-- The End of Chris Potvin's contact cards  -->
 			<!-- About Section -->
 			<div class="w3-container w3-padding-32 w3-center">  
 				<h3>About Me, The Food Man</h3><br>
