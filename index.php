@@ -9,6 +9,15 @@
     <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     .w3-bar-block .w3-bar-item {padding:20px}
+	
+	footer {font-family:Impact; background-color: silver;}	
+		
+	h1 {color: white;}
+		
+	h4 {font-family: Arial; font-style: italic;}
+		
+	h6 {font-family: Arial; color: #8B0000;}	
+	
     </style>
   </head>
 
@@ -165,39 +174,20 @@
 			<hr>
   
   <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
+  <footer>
+   <h1 style="background-color:DodgerBlue;" "text-align: left">The Travel Experts</h1>
+   <h4 style="background-color:Violet;" "text-align: left">More than just a good time...</h4>
+   <h6 style="text-align: left">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
+   <h6 style="text-align: left">&copy 2018 The Travel Experts <sup>TM</sup></h6>
   
-    <div class="w3-third">
-      <h3>BLOG POSTS</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Lorem</span><br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Ipsum</span><br>
-          <span>Praes tinci sed</span>
-        </li> 
-      </ul>
-    </div>
-
-    <div class="w3-third w3-serif">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
-      </p>
-    </div>
+   <div class="footer">
+    <a href="https://www.facebook.com/" target="_blank">
+    <img id="icon" src="/images/fb.png" style="float: center";></a>
+    <a href="https://www.instagram.com/" target="_blank" >
+    <img id="icon" src="/images/insta.png" style ="float: center";></a>
+    <a href="https://twitter.com/" target="_blank">
+    <img id="icon" src="/images/twitter.png" style="float: center";></a>
+   </div>
   </footer>
 
 <!-- End page content -->
