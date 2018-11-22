@@ -1,4 +1,5 @@
 <?php
+// CP insert customers into mySQL database php code //
 include("variables.php");
 include("functions.php");
 

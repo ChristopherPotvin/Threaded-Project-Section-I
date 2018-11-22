@@ -9,9 +9,9 @@ function dbConnect()
 
 ?>
 
+<?php
 // Start of Chris Potvin's PHP functions for Customer Registration page //
 
-<?php
 	include("variables.php");
 	
 	function dbconnect()
@@ -63,5 +63,5 @@ function dbConnect()
 		$dbh->close();
 		return true;
 	}
+	// End of Chris Potvin's php code for customer registration form //
 ?>
-// End of Chris Potvin's php code for customer registration form //

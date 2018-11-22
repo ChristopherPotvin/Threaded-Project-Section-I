@@ -5,12 +5,12 @@ $password = "abcd1234";
 $dbname = "travelexperts";
 ?>
 
-// Database declaration for customer registration form, CP //
 <?php
+// Database declaration for customer registration form, CP //
 
 $host = "localhost";
 $user = "chris";
 $pwd = "password";
 $dbname = "travelexperts";
-?>
 // End of DB declaration for customer registration form, CP //
+?>
