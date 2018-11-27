@@ -39,8 +39,8 @@
     style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
       <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-bar-item w3-button">Close Menu</a>
-      <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button">Travel packages</a>
-      <a href="register.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
+      <a href="index.php#packages" onclick="w3_close()" class="w3-bar-item w3-button">Travel packages</a>
+      <a href="Registration.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
       <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
     </nav>
 
@@ -100,6 +100,7 @@
 							
 							echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
 							echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
+							echo("<p><a href='verifySession.php' ><img src='images/order.jpg' /></a></p>");
 						echo("</div>");
 						
 						if (($count%4 == 0) || ($count == $n_rows))
