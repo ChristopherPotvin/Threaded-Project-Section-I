@@ -162,14 +162,15 @@
         </div>
       </div>
 		<!-- The End of Chris Potvin's contact cards  -->
-			<!-- About Section -->
+			<!-- Start of About Section // Chris Potvin -->
 			<div class="w3-container w3-padding-32 w3-center">  
-				<h3>About Me, The Food Man</h3><br>
-				<img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+				<h3 style="underline">About Travel Experts</h3><br>
+				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" width="800" height="533">
 				<div class="w3-padding-32">
-					<h4><b>I am Who I Am!</b></h4>
-					<h6><i>With Passion For Real, Good Food</i></h6>
-					<p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+					<h4><b>Sit back. Relax. We've got you covered.</b></h4>
+					<h6><i>100% Satisfaction Guranteed.</i></h6>
+					<p>Since 1985, we've been planning your ideal vacation with an assortment of exciting travel packages.
+          Come experience your trip of a lifetime and let us, do all the work for you.</p>
 				</div>
 			</div>
 			<hr>

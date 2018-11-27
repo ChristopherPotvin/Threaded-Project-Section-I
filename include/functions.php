@@ -42,12 +42,12 @@ function dbConnect()
 		$ce = $customers["CustEmail"];
 		$caa = $customers["AgentId"];
 		$cui = $customers["CustUserId"];
-		$cup = $customers["CustPassword"];
+		$cup = hash("ripemd160",$customers["CustPassword"]);
 
 		$dbh = dbconnect();
 		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");
 
-		$sql = "INSERT INTO `customers` (`CustomerId`, `CustFirstName`, `CustLastName`, `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`, `CustHomePhone`, `CustBusPhone`, `CustEmail`, `AgentId`, `CustUserId`, `CustPassword`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		$sql = "INSERT INTO `customers` (`CustomerId`, `CustFirstName`, `CustLastName`, `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`, `CustHomePhone`, `CustBusPhone`, `CustEmail`, `AgentId`, `CustLogin`, `CustPassword`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		// $statement = mysqli_stmt_prepare($dbh, $sql);
 		$stmt = $dbh->prepare($sql);
 

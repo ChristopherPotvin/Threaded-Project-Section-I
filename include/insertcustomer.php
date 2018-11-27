@@ -19,7 +19,7 @@ include("functions.php");
 	}
 	if (insertcustomer($customers))
 	{
-		print("Agent  data inserted into database successfully");
+		print("Customer data inserted into database successfully");
 	}
 	else
 	{
