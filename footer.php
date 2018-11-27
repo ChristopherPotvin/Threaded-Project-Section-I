@@ -5,8 +5,6 @@
 <style>
 	body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 	
-			
-			
 	footer {
 		font-family: "Karma", sans-serif;
 	}	
@@ -23,6 +21,7 @@
 		color: #8B0000;
 	}		
 </style>
+
 </head>
 
 <body>
