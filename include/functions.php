@@ -1,6 +1,6 @@
 <?php
 //All the functions we are going to include
-function dbConnect()
+function dbConnectJon()
 {
 	global $servername, $username, $password, $dbname;
 	
