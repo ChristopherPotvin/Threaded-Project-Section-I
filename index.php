@@ -180,24 +180,10 @@
 			<hr>
   
   <!-- Footer -->
-  <footer>
-   <h1 style="background-color:DodgerBlue;" "text-align: left">The Travel Experts</h1>
-   <h4 style="background-color:Violet;" "text-align: left">More than just a good time...</h4>
-   <h6 style="text-align: left">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
-   <h6 style="text-align: left">&copy 2018 The Travel Experts <sup>TM</sup></h6>
-  
-   <div class="footer">
-    <a href="https://www.facebook.com/" target="_blank">
-    <img id="icon" src="/images/fb.png" style="float: center";></a>
-    <a href="https://www.instagram.com/" target="_blank" >
-    <img id="icon" src="/images/insta.png" style ="float: center";></a>
-    <a href="https://twitter.com/" target="_blank">
-    <img id="icon" src="/images/twitter.png" style="float: center";></a>
-   </div>
-  </footer>
-
+	<?php
+		require("footer.php");
+	?>
 <!-- End page content -->
-</div>
 
 </body>
 </html>
