@@ -45,9 +45,9 @@
     style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
       <a href="javascript:void(0)" onclick="w3_close()"
       class="w3-bar-item w3-button">Close Menu</a>
-      <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button">Travel packages</a>
-      <a href="register.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
-      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+      <a href="index.php#packages" onclick="w3_close()" class="w3-bar-item w3-button">Travel packages</a>
+      <a href="registration.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
+      <a href="index.php#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
     </nav>
 
     <!-- Top menu -->
