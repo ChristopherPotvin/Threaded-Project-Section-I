@@ -11,7 +11,8 @@
 	}	
 		
 	h1 {
-        font: bold 12px;
+        font: 10px;
+        font-weight: bold;
         background-color: white;
         color: black;
         
