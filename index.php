@@ -57,7 +57,7 @@
 
 						if ($count%4 == 1)
 						{
-							echo("<div class='w3-row-padding w3-padding-16 w3-center' id='food'>");
+							echo("<div class='w3-row-padding w3-padding-16 w3-center' id='packages'>");
 						}
 
 						echo("<div class='w3-quarter'>");
@@ -143,7 +143,7 @@
             <div class="card">
               <img src="images/abel.jpg" alt="Abel" style="width:100%">
               <div class="container">
-                  <h3><b>Abel Rojas</b></h3>
+                  <h4><b>Abel Rojas</b></h4>
                   <p>President of Travel Experts</p>
                   <p>Abelrojas@travelexperts.com</p>
               </div>
