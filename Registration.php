@@ -79,19 +79,12 @@
 
                 <select id='agentid' name='AgentId'>
                 <!-- Options for selecting specific agents -->
-                    <option value='0'>Select an Agent Id</option>
-                    <option value='1'>1</option>
-                    <option value='2'>2</option>
-                    <option value='3'>3</option>
-                    <option value='4'>4</option>
-                    <option value='5'>5</option>
-                    <option value='6'>6</option>
-                    <option value='7'>7</option>
-                    <option value='8'>8</option>
-                    <option value='9'>9</option>
-                    <option value='10'>10</option>
-                    <option value='11'>11</option>
-                    <option value='12'>12</option>
+                    <option value='0'>Select an Agent</option>
+                    <option value='1'>Janet Delton</option>
+                    <option value='2'>Judy Lisle</option>
+                    <option value='3'>Dennis Reynolds</option>
+                    <option value='4'>John Coville</option>
+                    <option value='5'>Fred Smith</option>
                 </select> 
 
         <input type="submit" value="Register" onclick="return validate();"/>
