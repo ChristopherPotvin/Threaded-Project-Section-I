@@ -73,7 +73,7 @@
 ?>
   
 		<!-- !PAGE CONTENT HERE! -->
-  <body src="images/sky.jpg" style="opacity=5px;">
+  <body>
 		<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 		
 		<?php
@@ -169,7 +169,7 @@
 			<!-- Start of About Section // Chris Potvin -->
 			<div class="w3-container w3-padding-32 w3-center">  
 				<h3 style="underline">About Travel Experts</h3><br>
-				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" opacity="10%" width="800" height="533">
 				<div class="w3-padding-32">
 					<h4><b>Sit back. Relax. We've got you covered.</b></h4>
 					<h6><i>100% Satisfaction Guranteed.</i></h6>
