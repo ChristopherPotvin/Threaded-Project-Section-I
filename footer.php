@@ -11,7 +11,9 @@
 	}	
 		
 	h1 {
-		background-color: white;
+        font: bold black 15px;
+        background-color: white;
+        
 	}
 		
 	h4 {
