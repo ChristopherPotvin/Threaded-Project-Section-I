@@ -5,18 +5,7 @@
     <?php
       include "head-links.php";
      ?>
-
-    <style>
-	footer {font-family:Impact; background-color: silver;}
-
-	h1 {color: white;}
-
-	h4 {font-family: Arial; font-style: italic;}
-
-	h6 {font-family: Arial; color: #8B0000;}
-
-    </style>
-
+	  
     <?php
     	include "include/variables.php";
     	include "include/functions.php";
