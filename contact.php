@@ -54,12 +54,9 @@ while ($row = $result->fetch_row())
 ?>
 </div>
 
-<!-- Footer -->
+</body>
 <?php
   require("footer.php");
 ?>
 
-<!-- End page content -->
-
-</body>
 </html>

@@ -92,8 +92,9 @@
     </fieldset>
 </form>
 </div>
-	<?php
+
+</body>
+<?php
 		require("footer.php");
 	?>
-</body>
 </html>
