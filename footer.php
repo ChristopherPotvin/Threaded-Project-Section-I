@@ -11,7 +11,7 @@
 	}	
 		
 	h1 {
-        font: 10px;
+        font: 8px;
         font-weight: bold;
         background-color: white;
         color: black;
@@ -19,11 +19,13 @@
 	}
 		
 	h4 {
-		color: grey;
+        color: grey;
+        font: 6px;
 	}
 		
 	h6 {
-		color: black;
+        color: black;
+        font: 4px;
 	}		
 </style>
 

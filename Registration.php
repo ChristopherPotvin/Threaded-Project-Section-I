@@ -17,14 +17,6 @@
     body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
     .w3-bar-block .w3-bar-item {padding:20px}
 	
-	footer {font-family:Impact; background-color: silver;}	
-		
-	h1 {color: white;}
-		
-	h4 {font-family: Arial; font-style: italic;}
-		
-	h6 {font-family: Arial; color: #8B0000;}	
-	
     </style>
   </head>
 
