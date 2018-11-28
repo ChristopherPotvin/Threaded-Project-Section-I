@@ -11,7 +11,6 @@
 	}	
 		
 	h1 {
-        font: 6px;
         font-weight: bold;
         background-color: white;
         color: black;
@@ -20,12 +19,10 @@
 		
 	h4 {
         color: grey;
-        font: 3px;
 	}
 		
 	h6 {
         color: black;
-        font: 1px;
 	}		
 </style>
 
@@ -33,10 +30,10 @@
 
 <body>
 
-   <h1 style="text-align: center">The Travel Experts</h1>
-   <h4 style="text-align: center">More than just a good time...</h4>
-   <h6 style="text-align: center">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
-   <h6 style="text-align: center">&copy 2018 The Travel Experts <sup>TM</sup></h6>
+   <h1 style="text-align: center; font-size: 10px;">The Travel Experts</h1>
+   <h4 style="text-align: center; font-size: 8px">More than just a good time...</h4>
+   <h6 style="text-align: center; font-size: 6px">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
+   <h6 style="text-align: center; font-size: 6px">&copy 2018 The Travel Experts <sup>TM</sup></h6>
   
    <div class="footer">
     <a href="https://www.facebook.com/" target="_blank">
