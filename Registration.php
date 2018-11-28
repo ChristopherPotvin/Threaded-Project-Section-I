@@ -22,9 +22,11 @@
 	
     </style>]
 </head>
+<body>
 <?php
         include "header.php";
 ?>
+        <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
         <form id="form" method="post" action="insertcustomer.php">
             <fieldset>
                 <legend>Traveller Information:</legend>
@@ -96,6 +98,7 @@
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
     </fieldset>
 </form>
+</div>
 	<?php
 		require("footer.php");
 	?>
