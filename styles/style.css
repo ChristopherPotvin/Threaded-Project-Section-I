@@ -7,12 +7,6 @@
 	font-weight: bold;
 }
 
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(sky.jpg);
-}
-
 /* CSS for the contact cards */
 * {
     box-sizing: border-box;
@@ -43,7 +37,6 @@ body {
       width: 100%;
       display: block;
       margin-bottom: 30px;
-
     }
   }
 
@@ -67,3 +60,20 @@ body {
     padding: 6px 20px;
 }
 /* CSS for the Contact Cards */
+
+/* CSS for the Customer Registration Form */
+
+.regform
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+/* CSS for the footer */
