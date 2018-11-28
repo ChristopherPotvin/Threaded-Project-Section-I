@@ -7,12 +7,6 @@
 	font-weight: bold;
 }
 
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(161, 161, 161, 0.774), rgba(161, 161, 161, 0.774)), url(images/sky.jpg);
-}
-
 /* CSS for the contact cards */
 * {
     box-sizing: border-box;
@@ -20,7 +14,7 @@ body {
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Karma", sans-serif;
     font-size: 13px;
     
   }
@@ -43,16 +37,15 @@ body {
       width: 100%;
       display: block;
       margin-bottom: 30px;
-
     }
   }
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(87, 87, 87, 0.397);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
-    transition: 0.3s;
+    background-color:white;
+    transition: 0.5s;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -67,3 +60,24 @@ body {
     padding: 6px 20px;
 }
 /* CSS for the Contact Cards */
+
+/* CSS for the Customer Registration Form */
+
+fieldset
+{
+  padding: 16px;
+  text-align: left;
+  transition: 0.3s;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Karma", sans-serif;
+
+}
+
+legend
+{
+  font-size: 22px;
+}
+
+/* CSS for the footer */
