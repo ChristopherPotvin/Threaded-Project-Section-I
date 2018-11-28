@@ -11,7 +11,7 @@
 	}	
 		
 	h1 {
-        font: 8px;
+        font: 6px;
         font-weight: bold;
         background-color: white;
         color: black;
@@ -20,12 +20,12 @@
 		
 	h4 {
         color: grey;
-        font: 5px;
+        font: 3px;
 	}
 		
 	h6 {
         color: black;
-        font: 3px;
+        font: 1px;
 	}		
 </style>
 
@@ -40,11 +40,11 @@
   
    <div class="footer">
     <a href="https://www.facebook.com/" target="_blank">
-    <img id="icon" src="images/fb.png" style="float: right";></a>
+    <img id="icon" src="fb.png" style="float: right";></a>
     <a href="https://www.instagram.com/" target="_blank" >
-    <img id="icon" src="images/insta.png" style ="float: right";></a>
+    <img id="icon" src="insta.png" style ="float: right";></a>
     <a href="https://twitter.com/" target="_blank">
-    <img id="icon" src="images/twitter.png" style="float: right";></a>
+    <img id="icon" src="twitter.png" style="float: right";></a>
     </div>
 
 </body>

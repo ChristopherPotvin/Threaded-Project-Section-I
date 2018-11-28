@@ -1,0 +1,78 @@
+.price
+{
+	color: red;
+}
+.datePkg
+{
+	font-weight: bold;
+}
+
+/* CSS for the contact cards */
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: "Karma", sans-serif;
+    font-size: 13px;
+    
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0px 0px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    transition: 0.3s;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 6px 20px;
+}
+/* CSS for the Contact Cards */
+
+/* CSS for the Customer Registration Form */
+
+fieldset
+{
+  padding: 16px;
+  text-align: left;
+  transition: 0.3s;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Karma", sans-serif;
+
+}
+
+/* CSS for the footer */
