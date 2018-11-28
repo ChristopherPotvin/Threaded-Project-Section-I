@@ -137,7 +137,7 @@
       </div>
 		<!-- The End of Chris Potvin's contact cards  -->
 			<!-- Start of About Section // Chris Potvin -->
-			<div class="w3-container w3-padding-32 w3-center">
+			<div class="w3-container w3-padding-32 w3-center" id="about">
 				<h3 style="underline">About Travel Experts</h3><br>
 				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" opacity="10%" width="800" height="533">
 				<div class="w3-padding-32">
