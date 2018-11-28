@@ -73,7 +73,7 @@
 ?>
   
 		<!-- !PAGE CONTENT HERE! -->
-  <body>
+  <body src="images/sky.jpg" style="opacity=5px;">
 		<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 		
 		<?php
