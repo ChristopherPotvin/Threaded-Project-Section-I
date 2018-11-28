@@ -30,10 +30,10 @@
 
 <body>
 
-   <h1 style="text-align: center; font-size: 16px;">The Travel Experts</h1>
-   <h4 style="text-align: center; font-size: 12px">More than just a good time...</h4>
-   <h6 style="text-align: center; font-size: 8px">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
-   <h6 style="text-align: center; font-size: 8px">&copy 2018 The Travel Experts <sup>TM</sup></h6>
+   <h1 style="text-align: center; font-size: 20px;">The Travel Experts</h1>
+   <h4 style="text-align: center; font-size: 16px">More than just a good time...</h4>
+   <h6 style="text-align: center; font-size: 10px">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
+   <h6 style="text-align: center; font-size: 10px">&copy 2018 The Travel Experts <sup>TM</sup></h6>
   
    <div class="footer">
     <a href="https://www.facebook.com/" target="_blank">
