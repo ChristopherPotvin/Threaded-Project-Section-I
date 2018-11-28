@@ -64,7 +64,7 @@
 
                 City:<br/><input type="text" name="CustAddress" required="required"/><br/>
 
-                Postal Code:<br/><input type="text" name="CustPostal" id="postal" required="required"/><br/>
+                Postal Code:<br/><input type="text" name="CustPostal" id="postal" required="required"/><br/><br/>
                 
                 <label for='province'>Province:</label>
 
@@ -98,7 +98,7 @@
                 Business Phone Number:<br/><input type="phone" name="CustBusPhone"/><br/>
 
                 Customer ID:<br/><input type="text" name="CustUserId" /><br/>
-                Password:<br/><input type="text" name="CustPassword" /><br/>
+                Password:<br/><input type="text" name="CustPassword" /><br/><br>
 
                 <label for='agentid'>Agent Id:</label>
 
