@@ -30,18 +30,18 @@
 
 <body>
 
-   <h1 style="text-align: center; font-size: 16px;">The Travel Experts</h1>
-   <h4 style="text-align: center; font-size: 12px">More than just a good time...</h4>
-   <h6 style="text-align: center; font-size: 8px">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
-   <h6 style="text-align: center; font-size: 8px">&copy 2018 The Travel Experts <sup>TM</sup></h6>
+   <h1 style="text-align: center; font-size: 21px;">The Travel Experts</h1>
+   <h4 style="text-align: center; font-size: 17px">More than just a good time...</h4>
+   <h6 style="text-align: center; font-size: 11px">Images by: Pexels.com<br>Icons by: Icons8.com</h6>
+   <h6 style="text-align: center; font-size: 11px">&copy 2018 The Travel Experts <sup>TM</sup></h6>
   
    <div class="footer">
     <a href="https://www.facebook.com/" target="_blank">
-    <img id="icon" src="fb.png" style="float: right";></a>
+    <img id="icon" src="images/fb.png" style="float: right";></a>
     <a href="https://www.instagram.com/" target="_blank" >
-    <img id="icon" src="insta.png" style ="float: right";></a>
+    <img id="icon" src="images/insta.png" style ="float: right";></a>
     <a href="https://twitter.com/" target="_blank">
-    <img id="icon" src="twitter.png" style="float: right";></a>
+    <img id="icon" src="images/twitter.png" style="float: right";></a>
     </div>
 
 </body>
