@@ -7,7 +7,7 @@
     <a href="index.php#packages" onclick="w3_close()" class="w3-bar-item w3-button">Travel packages</a>
     <a href="Registration.php" onclick="w3_close()" class="w3-bar-item w3-button">Register</a>
     <a href="contact.php" onclick="w3_close()" class="w3-bar-item w3-button">Contact us</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+    <a href="index.php#packages" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
   </nav>
 
   <!-- Top menu -->

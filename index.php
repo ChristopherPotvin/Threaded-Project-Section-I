@@ -148,6 +148,7 @@
 				</div>
 			</div>
 			<hr>
+</div>
 
   <!-- Footer -->
 	<?php

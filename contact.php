@@ -7,7 +7,7 @@
      ?>
   </head>
 
-
+<body>
   <!-- HEADER -->
   <?php
     include "header.php";
@@ -15,7 +15,7 @@
 
 
 <!-- !PAGE CONTENT! -->
-
+	<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 <?php
 include_once("include/functions.php");
 // Connect to database and store in handler
@@ -52,7 +52,7 @@ while ($row = $result->fetch_row())
 }
 
 ?>
-
+</div>
 
 <!-- Footer -->
 <?php
