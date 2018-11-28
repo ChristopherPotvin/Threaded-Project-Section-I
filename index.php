@@ -88,56 +88,11 @@
 				$conn->close();
 
 		?>
-    <!-- The start of Chris Potvin's Contact Card Section including css and html elements -->
-    <div class="row">
-        <div class="column">
-          <div class="card">
-              <img src="images/john.jpg" alt="Jonathan" style="width:100%">
-              <div class="container">
-                  <h4><b>Johnathan Pirca</b></h4>
-                  <p>Senior Travel Agent</p>
-                  <p>Johnathanpirca@travelexperts.com</p>
 
-              </div>
-            </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-              <img src="images/chris.jpg" alt="Chris" style="width:100%">
-              <div class="container">
-                  <h4><b>Christopher Potvin</b></h4>
-                  <p>Travel Specialist</p>
-                  <p>Chrispotvin@travelexperts.com</p>
-              </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-              <img src="images/alex.jpg" alt="Alex" style="width:100%">
-              <div class="container">
-              <h4><b>Alex Procyk</b></h4>
-              <p>Junior Travel Agent</p>
-              <p>Alexprocyk@travelexperts.com</p>
-              </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card">
-            <img src="images/abel.jpg" alt="Abel" style="width:100%">
-            <div class="container">
-                <h3><b>Abel Rojas</b></h3>
-                <p>President of Travel Experts</p>
-                <p>Abelrojas@travelexperts.com</p>
-            </div>
-           </div>
-        </div>
-      </div>
-		<!-- The End of Chris Potvin's contact cards  -->
 			<!-- Start of About Section // Chris Potvin -->
-			<div class="w3-container w3-padding-32 w3-center" id="about">
+  <hr id="about">
+
+      <div class="w3-container w3-padding-32 w3-center">
 				<h3 style="underline">About Travel Experts</h3><br>
 				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" opacity="10%" width="800" height="533">
 				<div class="w3-padding-32">
@@ -147,6 +102,55 @@
           Come experience your trip of a lifetime and let us, do all the work for you.</p>
 				</div>
 			</div>
+
+      <!-- The start of Chris Potvin's Contact Card Section including css and html elements -->
+      <div class="row">
+          <div class="column">
+            <div class="card">
+                <img src="images/john.jpg" alt="Jonathan" style="width:100%">
+                <div class="container">
+                    <h4><b>Johnathan Pirca</b></h4>
+                    <p>Senior Travel Agent</p>
+                    <p>Johnathanpirca@travelexperts.com</p>
+
+                </div>
+              </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+                <img src="images/chris.jpg" alt="Chris" style="width:100%">
+                <div class="container">
+                    <h4><b>Christopher Potvin</b></h4>
+                    <p>Travel Specialist</p>
+                    <p>Chrispotvin@travelexperts.com</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+                <img src="images/alex.jpg" alt="Alex" style="width:100%">
+                <div class="container">
+                <h4><b>Alex Procyk</b></h4>
+                <p>Junior Travel Agent</p>
+                <p>Alexprocyk@travelexperts.com</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="images/abel.jpg" alt="Abel" style="width:100%">
+              <div class="container">
+                  <h3><b>Abel Rojas</b></h3>
+                  <p>President of Travel Experts</p>
+                  <p>Abelrojas@travelexperts.com</p>
+              </div>
+             </div>
+          </div>
+        </div>
+      <!-- The End of Chris Potvin's contact cards  -->
 			<hr>
 </div>
 
