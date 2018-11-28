@@ -10,7 +10,8 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(161, 161, 161, 0.774), rgba(161, 161, 161, 0.774)), url(images/sky.jpg);
+  background-image: url(sky.jpg);
+  opacity: 5px;
 }
 
 /* CSS for the contact cards */
