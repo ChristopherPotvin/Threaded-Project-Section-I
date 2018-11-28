@@ -37,11 +37,11 @@
   
    <div class="footer">
     <a href="https://www.facebook.com/" target="_blank">
-    <img id="icon" src="fb.png" style="float: right";></a>
+    <img id="icon" src="images/fb.png" style="float: right";></a>
     <a href="https://www.instagram.com/" target="_blank" >
-    <img id="icon" src="insta.png" style ="float: right";></a>
+    <img id="icon" src="images/insta.png" style ="float: right";></a>
     <a href="https://twitter.com/" target="_blank">
-    <img id="icon" src="twitter.png" style="float: right";></a>
+    <img id="icon" src="images/twitter.png" style="float: right";></a>
     </div>
 
 </body>
