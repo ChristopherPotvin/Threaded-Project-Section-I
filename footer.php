@@ -20,12 +20,12 @@
 		
 	h4 {
         color: grey;
-        font: 6px;
+        font: 5px;
 	}
 		
 	h6 {
         color: black;
-        font: 4px;
+        font: 3px;
 	}		
 </style>
 
