@@ -14,3 +14,13 @@ $pwd = "password";
 $dbname = "travelexperts";
 // End of DB declaration for customer registration form, CP //
 ?>
+
+<?php
+// Database declaration for package purchase form, AP //
+
+$host = "localhost";
+$user = "root";
+$pwd = "";
+$dbname = "travelexperts";
+// End of declaration for package purchase form, AP //
+?>

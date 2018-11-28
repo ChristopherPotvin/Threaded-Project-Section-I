@@ -60,7 +60,7 @@
     </div>
   </header>    
 </head>
-    
+<body>  
     <form id="form" method="post" action="insertcustomer.php">
     <fieldset>
         <legend>Traveller Information:</legend>

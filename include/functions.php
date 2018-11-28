@@ -63,5 +63,64 @@ function dbConnectJon()
 		$dbh->close();
 		return true;
 	}
-	// End of Chris Potvin's php code for customer registration form //
+	// Start of Alex Procyk's PHP functions for Purchase page //
+
+		function purchasepackage($packages)
+		
+	{	
+			
+		$var = NULL;
+		$tc = $packages["TravelerCount"];
+		$cc = $packages["CCName"];
+		$cn = $packages["CCNumber"];
+		$ce = $packages["CCExpiry"];
+		$fc = $packages["ClassId"];
+		$tt = $packages["TripTypeId"];
+		
+		$destination = 'Vancouver';
+		$bookingdate = '2016-02-22';
+		$bookingnum = 'SFO97';
+		$customerid = '144';
+		$packageid = 'NULL';
+		$itineraryno = '301';
+		$tripstart = '2016-03-17';
+		$tripend = '2016-04-02';
+		$description = 'Vancouver/Sydney';
+		$baseprice = '495.00';
+		$agencycommission = '98.6';
+		$bookingid = '34';
+		$feeid = 'NC';
+		$productsupplierid = '11';
+		$regionid = 'NA';
+
+		$dbh = dbconnect();
+		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");
+
+		$sql = "INSERT INTO `bookings` (`BookingDate`, `BookingNo`,`TravelerCount`, `CustomerId`, `TripTypeId`, `PackageId`) VALUES (?, ?, ?, ?, ?, ?)";
+		$sql2 = "INSERT INTO `bookingdetails` (`ItineraryNo`, `TripStart`, `TripEnd`, `Description`, `Destination`, `BasePrice`, AgencyCommission`, `BookingId`, `RegionId`,`ClassId`, `FeeId`, `ProductSupplerId`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		$sql3 = "INSERT INTO `creditcards` (`CCName`, `CCNumber`, `CCExpiry`, `CustomerId`) VALUES (?, ?, ?, ?)";
+		// $statement = mysqli_stmt_prepare($dbh, $sql);
+		$stmt = $dbh->prepare($sql);
+		$stmt2 = $dbh->prepare($sql2);
+		$stmt3 = $dbh->prepare($sql3);
+
+		$stmt->bind_param("ssssss", $bookingdate, $bookingno, $tc, $customerid, $tt, $packageid);
+		$stmt2->bind_param("iiissiiisssi",$itineraryno, $tripstart, $tripend, $description, $destination, $baseprice, $agencycommission, $bookingid, $regionid, $fc, $feeid, $productsupplierid);
+		$stmt3->bind_param("ssss", $cc , $cn , $ce, $customerid);
+
+		$result = $stmt->execute();
+		$result2 = $stmt2->execute();
+		$result3 = $stmt3->execute();
+
+		if ((!$result)
+			or (!$result2)
+			or (!$result3))
+		{
+			print(mysqli_stmt_error($stmt));
+			return false;
+		}
+		$dbh->close();
+		return true;
+	}
+	// End of Alex Procyk's PHP functions for Purchase page //
 ?>
