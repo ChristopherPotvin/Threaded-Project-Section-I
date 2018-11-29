@@ -6,7 +6,7 @@
 	<?php
       include "head-links.php";
     ?>
-	
+
 </head>
 
 <header>
@@ -16,13 +16,15 @@
 </header>
 
 <body>
-
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+  <fieldset>
+    <legend>Confirm Your Details to Purchase!</legend>
     <form id="purchase" method="post" action="confirmpackage.php">
-    <fieldset>
-        <legend>Confirm Your Details to Purchase!</legend>
-        
-        Traveller Count:<br/><input type="text" id='TravCt' name='TravelerCount' required='required'/><br/>
-		
+
+
+
+        Traveller Count:<br/><input type="text" id='TravCt' name='TravelerCount' required='required' size="100"/><br/>
+
         Credit Card Name:<br/><select id='CardName' name="CCName" required="required"/><br/>
 				<option value=''>Select credit card mark</option>
 				<option value='VS'>Visa</option>
@@ -31,12 +33,12 @@
 				<option value='DN'>Diners</option>
 			</select>
 		<br />
-        Credit Card Number:<br/><input type="text" name="CCNumber" required="required"/><br/>
-    
-        Credit Card Expiry:<br/><input type="date" name="CCExpiry" required="required"/><br/>
+        Credit Card Number:<br/><input type="text" name="CCNumber" required="required" size="100"/><br/>
 
-		<label for 'ftype'>Trip Class:
-		<select id='ftype' name='ClassId'>
+        Credit Card Expiry:<br/><input type="date" name="CCExpiry" required="required" /><br/>
+
+
+		Trip Class:<br /><select id='ftype' name='ClassId'>
 			<option value=''>What class do you wish to select?</option>
 			<option value='ECN'>Economy</option>
 			<option value='BSN'>Business Class</option>
@@ -48,10 +50,10 @@
 			<option value='DBL'>Double</option>
 			<option value='DLX'>Deluxe</option>
 			<option value='NA'>Non-applicable</option>
-		</select>
-		
-		<label for 'ttype'>Travel Type:
-		<select id='ttype' name='TripTypeId'>
+		</select><br/>
+
+
+		Travel Type:<br /><select id='ttype' name='TripTypeId'>
 			<option value=''>For what reason are you travelling?</option>
 			<option value='B'>Business</option>
 			<option value='L'>Leisure</option>
@@ -60,10 +62,11 @@
 
 		<input type="submit" value="Purchase"/>
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
-		</fieldset>
-	</form>
-	
+	  </form>
+	</fieldset>
+ </div>
 </body>
+
   <!-- Copy of global footer -->
 	<?php
 		require("footer.php");
