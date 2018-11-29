@@ -67,6 +67,9 @@ function dbConnectJon()
 
 	function purchasepackage($packages)
 	{	
+		session_cache_expire(10);
+		session_start();
+	
 		$var = NULL;
 		$tc = $packages["TravelerCount"];
 		$cc = $packages["CCName"];
