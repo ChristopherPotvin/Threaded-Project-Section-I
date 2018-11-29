@@ -70,6 +70,7 @@
 				<option value='VS'>Visa</option>
 				<option value='MC'>MasterCard</option>
 				<option value='AM'>AMEX</option>
+				<option value='DN'>Diners</option>
 			</select>
 		<br />
         Credit Card Number:<br/><input type="text" name="CCNumber" required="required"/><br/>
@@ -79,15 +80,15 @@
 		<label for 'ftype'>Trip Class:
 		<select id='ftype' name='ClassId'>
 			<option value=''>What class do you wish to select?</option>
-			<option value='EC'>Economy</option>
-			<option value='BC'>Business Class</option>
-			<option value='FC'>First Class</option>
-			<option value='ICC'>Interior</option>
+			<option value='ECN'>Economy</option>
+			<option value='BSN'>Business Class</option>
+			<option value='FST'>First Class</option>
+			<option value='INT'>Interior</option>
 			<option value='NA'>Non-applicable</option>
-			<option value='OV'>Ocean View</option>
-			<option value='SI'>Single</option>
-			<option value='DO'>Double</option>
-			<option value='DX'>Deluxe</option>
+			<option value='OCNV'>Ocean View</option>
+			<option value='SNG'>Single</option>
+			<option value='DBL'>Double</option>
+			<option value='DLX'>Deluxe</option>
 			<option value='NA'>Non-applicable</option>
 		</select>
 		
