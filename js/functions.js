@@ -9,7 +9,7 @@ function validate()
             }
             document.forms[0].postal.value = document.forms[0].postal.value.toUpperCase();
             var reg2 = /(^[A-Z]\d[A-Z] ?\d[A-Z]\d$)|(^\d{5}( ?\d{4})?$)/i;
-            if (!reg2.test(myform.postal.value))
+            if (!reg2.test(document.forms[0].postal.value))
             {
                   alert("Invalid postal code");
                   return false;
