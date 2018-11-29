@@ -6,7 +6,7 @@
         include "head-links.php";
     ?>
     
-<script src="js/function.js"></script>
+<script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         include "header.php";
 ?>
         <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-        <form id="form" method="post" action=insertcustomer.php">
+        <form id="form" method="post" action="insertcustomer.php">
             <fieldset>
                 <legend>Traveller Information:</legend>
 
