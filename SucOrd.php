@@ -16,13 +16,16 @@
 <?php 
     include "header.php"
     ?>
-
+<br><br>
 <body>
     <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
     <h1>Order confirmed. Thank your for booking with us!</h1>
     <br><br>
     <h2><a href="index.php" target="_blank"><img src="images/button.png";></a></h2>
 </body>
+<br><br><br><br><br><br><br><br><br><br>
+
+
 <?php
     include "footer.php"
     ?>
