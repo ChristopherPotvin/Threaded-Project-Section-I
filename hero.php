@@ -9,7 +9,7 @@
     <script src="main.js"></script>
 </head>
 
-        <section class="hero-content">
+        <section class="section-content">
             <h1 class="section-title animate-pop-in">Where your dreams, become a reality.</h1>
         </section>
      
