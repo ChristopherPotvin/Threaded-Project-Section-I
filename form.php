@@ -54,7 +54,7 @@
 		<select id='ttype' name='TripTypeId'>
 			<option value=''>For what reason are you travelling?</option>
 			<option value='B'>Business</option>
-			<option value='P'>Pleasure</option>
+			<option value='L'>Leisure</option>
 			<option value='G'>Group</option>
 		</select>
 

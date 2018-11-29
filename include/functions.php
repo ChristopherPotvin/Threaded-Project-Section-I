@@ -89,11 +89,12 @@ function dbConnectJon()
 		$feeid = 'NC';
 		$productsupplierid = '11';
 		$regionid = 'NA';
+		$packageid = $_SESSION["packages"];
 
 		$dbh = dbconnect();
 		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");
 
-		$sql = "INSERT INTO `bookings` (`BookingDate`, `BookingNo`,`TravelerCount`, `CustomerId`, `TripTypeId`) VALUES (?, ?, ?, ?, ?)";
+		$sql = "INSERT INTO `bookings` (`BookingDate`, `BookingNo`,`TravelerCount`, `CustomerId`, `TripTypeId`, `PackageId`) VALUES (?, ?, ?, ?, ?, ?)";
 		$sql2 = "INSERT INTO `bookingdetails` (`ItineraryNo`, `TripStart`, `TripEnd`, `Description`, `Destination`, `BasePrice`, `AgencyCommission`, `BookingId`, `RegionId`,`ClassId`, `FeeId`, `ProductSupplierId`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		$sql3 = "INSERT INTO `creditcards` (`CCName`, `CCNumber`, `CCExpiry`, `CustomerId`) VALUES (?, ?, ?, ?)";
 		//$statement = mysqli_stmt_prepare($dbh, $sql);
@@ -101,7 +102,7 @@ function dbConnectJon()
 		$stmt2 = $dbh->prepare($sql2);
 		$stmt3 = $dbh->prepare($sql3);
 
-		$stmt->bind_param("sssss", $bookingdate, $bookingno, $tc, $customerid, $tt);
+		$stmt->bind_param("sssssi", $bookingdate, $bookingno, $tc, $customerid, $tt, $packageid);
 		$stmt2->bind_param("ssssssssssss", $itineraryno, $tripstart, $tripend, $description, $destination, $baseprice, $agencycommission, $bookingid, $regionid, $fc, $feeid, $productsupplierid);
 		$stmt3->bind_param("ssss", $cc, $cn, $ce, $customerid);
 
