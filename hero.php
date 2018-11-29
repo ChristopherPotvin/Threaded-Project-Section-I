@@ -10,7 +10,7 @@
 </head>
 
         <section class="hero-content">
-        <h1 class="section-title animate-pop-in">Where your dreams, become a reality.</h1>
+            <h1 class="section-title animate-pop-in">Where your dreams, become a reality.</h1>
         </section>
      
 <body>
