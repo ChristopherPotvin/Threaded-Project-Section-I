@@ -19,7 +19,7 @@ include("functions.php");
 	}
 	if (insertcustomer($customers))
 	{
-		header("SucReg.php");
+		header("Location: SucReg.php");
 	}
 	else
 	{

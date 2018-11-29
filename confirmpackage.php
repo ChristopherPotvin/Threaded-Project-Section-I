@@ -16,7 +16,7 @@ include("include/functions.php");
 	}
 	if (purchasepackage($packages))
 	{
-		header("SucOrd.php");
+		header("Location: SucOrd.php");
 	}
 	else
 	{
