@@ -1,16 +1,16 @@
 <?php
 // CP insert customers into mySQL database php code //
-include("variables.php");
-include("functions.php");
+include("include/variables.php");
+include("include/functions.php");
 
-	
+
 	if (!isset($_REQUEST["CustFirstName"]))
 	{
 		header("Location: registration.php");
 	}
 
 	$dbh = dbconnect();
-	
+
 	$customers = array();
 
 	foreach ($_REQUEST as $key => $value)
@@ -25,5 +25,5 @@ include("functions.php");
 	{
 		print("Insert failed. Call Tech Support.");
 	}
-	
+
 ?>
