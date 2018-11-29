@@ -19,7 +19,7 @@ include("functions.php");
 	}
 	if (insertcustomer($customers))
 	{
-		print("Customer data inserted into database successfully");
+		header("SucReg.php");
 	}
 	else
 	{
