@@ -3,7 +3,7 @@
 function dbConnectJon()
 {
 	global $servername, $username, $password, $dbname;
-	
+
 	return new mysqli($servername,$username,$password,$dbname);
 }
 
@@ -13,7 +13,7 @@ function dbConnectJon()
 // Start of Chris Potvin's PHP functions for Customer Registration page //
 
 	include("variables.php");
-	
+
 	function dbconnect()
 	{
 		global $host, $user, $pwd, $dbname;
@@ -25,17 +25,16 @@ function dbConnectJon()
 		}
 		return $dbh;
 	}
-	
-	
+
+
 	function insertcustomer($customers)
 	{
-		$var = NULL;
 		$fn = $customers["CustFirstName"];
 		$ln = $customers["CustLastName"];
 		$ca =  $customers["CustAddress"];
 		$cc = $customers["CustCity"];
 		$cp = $customers["CustProv"];
-		$cpp = $customers["CustPostal"]; 
+		$cpp = $customers["CustPostal"];
 		$ccc = $customers["CustCountry"];
 		$chp = $customers["CustHomePhone"];
 		$cbp = $customers["CustBusPhone"];
@@ -47,7 +46,9 @@ function dbConnectJon()
 		$dbh = dbconnect();
 		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");
 
-		$sql = "INSERT INTO `customers` (`CustomerId`, `CustFirstName`, `CustLastName`, `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`, `CustHomePhone`, `CustBusPhone`, `CustEmail`, `AgentId`, `CustLogin`, `CustPassword`) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		$sql = "INSERT INTO `customers` (`CustFirstName`, `CustLastName`,
+			 `CustAddress`, `CustCity`, `CustProv`, `CustPostal`, `CustCountry`, `CustHomePhone`,
+			  `CustBusPhone`, `CustEmail`, `AgentId`, `CustUserId`, `CustPassword`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		// $statement = mysqli_stmt_prepare($dbh, $sql);
 		$stmt = $dbh->prepare($sql);
 
@@ -66,10 +67,10 @@ function dbConnectJon()
 	// Start of Alex Procyk's PHP functions for Purchase page //
 
 	function purchasepackage($packages)
-	{	
+	{
 		session_cache_expire(10);
 		session_start();
-	
+
 		$var = NULL;
 		$tc = $packages["TravelerCount"];
 		$cc = $packages["CCName"];
@@ -77,7 +78,7 @@ function dbConnectJon()
 		$ce = $packages["CCExpiry"];
 		$fc = $packages["ClassId"];
 		$tt = $packages["TripTypeId"];
-		
+
 		$destination = 'Vancouver';
 		$bookingdate = '2016-02-22';
 		$bookingnum = 'SFO97';
