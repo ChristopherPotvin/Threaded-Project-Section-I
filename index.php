@@ -30,6 +30,9 @@
       include "header.php";
     ?>
 
+    <?php
+      include "hero.php";
+      ?>
 
 		<!-- PAGE CONTENT HERE! -->
   <body>
