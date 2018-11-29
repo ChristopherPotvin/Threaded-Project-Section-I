@@ -10,6 +10,6 @@
 	}
 	else
 	{
-		header("location: createOrder.php");
+		header("location: form.php");
 	}
 ?>

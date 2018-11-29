@@ -1,7 +1,7 @@
 <?php
 // AP insert finished travel information into confirmed purchases within MySQL database //
-include("variables.php");
-include("functions.php");
+include("include/variables.php");
+include("include/functions.php");
 	
 	if (!isset($_REQUEST["TravelerCount"]))
 	{
