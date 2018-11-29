@@ -16,7 +16,7 @@ include("include/functions.php");
 	}
 	if (purchasepackage($packages))
 	{
-		print("Your package purchase is confirmed! Thank you for your patronage of Travel Experts, and we hope you enjoy your trip!");
+		header("SucOrd.php");
 	}
 	else
 	{

@@ -18,7 +18,7 @@
     ?>
 
 <body>
-    <h1>Registration successful.</h1>
+    <h1>Order confirmed. Thank your for booking with us!</h1>
     <br><br>
     <h2><a href="index.php" target="_blank"><img src="images/button.png";>Back</a></h2>
 </body>
