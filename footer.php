@@ -36,6 +36,7 @@
    
   
    <div class="footer">
+   <br><br>
     <a href="https://www.facebook.com/" target="_blank">
     <img id="icon" src="images/fb.png" style="float: right";></a>
     <a href="https://www.instagram.com/" target="_blank" >
