@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Customer Registration</title>
+    <title>Page Title</title>
     <?php
         include "head-links.php";
     ?>
-    
-<script src="js/functions.js"></script>
+
+  <script src="js/functions.js"></script>
 </head>
 
 <body>
@@ -18,19 +18,17 @@
             <fieldset>
                 <legend>Traveller Information:</legend>
 
-                First Name:<br/><input type="text" name="CustFirstName" required="required"/><br/>
+                First Name:<br/><input type="text" name="CustFirstName" required="required" size="100"/><br/>
 
-                Last Name:<br/><input type="text" name="CustLastName" required="required"/><br/>
-        
-                Address:<br/><input type="text" name="CustCity" required="required"/><br/>
+                Last Name:<br/><input type="text" name="CustLastName" required="required" size="100"/><br/>
 
-                City:<br/><input type="text" name="CustAddress" required="required"/><br/>
+                Address:<br/><input type="text" name="CustCity" required="required" size="100"/><br/>
 
-                Postal Code:<br/><input type="text" name="CustPostal" id="postal" required="required"/><br/><br/>
-                
-                <label for='province'>Province:</label>
+                City:<br/><input type="text" name="CustAddress" required="required" size="100"/><br/>
 
-                <select id='province' name='CustProv'>
+                Postal Code:<br/><input type="text" name="CustPostal" id="postal" required="required" size="100"/><br/><br/>
+
+                Province:<br/><select id='province' name='CustProv'>
 
                     <option value=''>Select a Province</option>
                     <option value='ab'>AB</option>
@@ -48,31 +46,29 @@
                     <option value='nu'>NU</option>
 
                 </select>
-                
+
                 <br>
 
-                Country:<br/><input type="text" name="CustCountry" required="required"/><br/>
+                Country:<br/><input type="text" name="CustCountry" required="required" size="100"/><br/>
 
-                Email:<br/><input type="text" name="CustEmail" id="email" required="required"/><br/>
+                Email:<br/><input type="text" name="CustEmail" id="email" required="required" size="100"/><br/>
 
-                Home Phone Number:<br/><input type="phone" name="CustHomePhone" required="required"/><br/>
-    
-                Business Phone Number:<br/><input type="phone" name="CustBusPhone"/><br/>
+                Home Phone Number:<br/><input type="phone" name="CustHomePhone" required="required" size="100"/><br/>
 
-                Username:<br/><input type="text" name="CustUserId" /><br/>
-                Password:<br/><input type="password" name="CustPassword" /><br/><br>
+                Business Phone Number:<br/><input type="phone" name="CustBusPhone" size="100"/><br/>
 
-                <label for='agentid'>Agent Id:</label>
+                Username:<br/><input type="text" name="CustUserId" size="100"/><br/>
+                Password:<br/><input type="password" name="CustPassword" size="100"/><br/><br>
 
-                <select id='agentid' name='AgentId'>
+                Agent:<br/><select id='agentid' name='AgentId'>
                 <!-- Options for selecting specific agents -->
-                    <option value='0'>Select an Agent</option>
+                    <option value='0'>Select an Agent...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
                     <option value='1'>Janet Delton</option>
                     <option value='2'>Judy Lisle</option>
                     <option value='3'>Dennis Reynolds</option>
                     <option value='4'>John Coville</option>
                     <option value='5'>Fred Smith</option>
-                </select> 
+                </select>
 
         <input type="submit" value="Register" onclick="return validate();"/>
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
