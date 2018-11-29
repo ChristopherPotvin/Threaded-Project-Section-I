@@ -3,7 +3,7 @@
 section {
     align-items: center;
     display: flex;
-    font-size: 30px;
+    font-size: 50px;
     height: 100vh;
     justify-content: center;
     overflow: hidden;
@@ -11,6 +11,7 @@ section {
     text-align: center;
     transform-style: preserve-3d;
     perspective: 300px;
+    bottom: 40px;
 }
 
 section:before {

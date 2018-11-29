@@ -13,7 +13,6 @@
 	h1 {
         font-weight: bold;
         color: black;
-        
 	}
 		
 	h4 {

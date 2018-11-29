@@ -85,8 +85,7 @@
   <hr id="about">
 
       <div class="w3-container w3-padding-32 w3-center">
-				<h3 style="underline">About Travel Experts</h3><br>
-				<img src="images/blueocean.jpg" alt="ocean" class="w3-image" style="display:block;margin:auto" opacity="10%" width="800" height="533">
+				<h3><u>About Travel Experts</u></h3>
 				<div class="w3-padding-32">
 					<h4><b>Sit back. Relax. We've got you covered.</b></h4>
 					<h6><i>100% Satisfaction Guranteed.</i></h6>

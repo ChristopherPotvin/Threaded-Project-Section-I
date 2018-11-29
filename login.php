@@ -15,6 +15,7 @@
 	<!-- !PAGE CONTENT HERE! -->
 <body>
 	<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+	<br><br><br><br><br>
 		<div class='w3-row-padding w3-padding-16 w3-center' id='food'>
 		<form action="validateLogin.php" method="Post">
 			<div class="w3-section">
