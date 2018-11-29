@@ -5,6 +5,8 @@
     <?php
         include "head-links.php";
     ?>
+    
+<script src="main.js"></script>
 </head>
 
 <body>
