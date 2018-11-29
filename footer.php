@@ -42,6 +42,7 @@
     <img id="icon" src="images/insta.png" style ="float: right";></a>
     <a href="https://twitter.com/" target="_blank">
     <img id="icon" src="images/twitter.png" style="float: right";></a>
+    <a target="_blank" href="https://www.booked.net/weather/calgary-30502" style="float: left";><img src="https://w.bookcdn.com/weather/picture/32_30502_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=569&anc_id=70976" alt="booked.net"/></a></div><!-- weather widget end -->
     </div>
 
 </body>
