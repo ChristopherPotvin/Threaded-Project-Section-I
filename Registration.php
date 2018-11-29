@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title>Customer Registration</title>
     <?php
         include "head-links.php";
     ?>
     
-<script src="main.js"></script>
+<script src="js/function.js"></script>
 </head>
 
 <body>
