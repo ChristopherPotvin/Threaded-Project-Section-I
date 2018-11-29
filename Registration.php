@@ -12,7 +12,7 @@
         include "header.php";
 ?>
         <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-        <form id="form" method="post" action="insertcustomer.php">
+        <form id="form" method="post" action="include/insertcustomer.php">
             <fieldset>
                 <legend>Traveller Information:</legend>
 
@@ -57,8 +57,8 @@
     
                 Business Phone Number:<br/><input type="phone" name="CustBusPhone"/><br/>
 
-                Customer ID:<br/><input type="text" name="CustUserId" /><br/>
-                Password:<br/><input type="text" name="CustPassword" /><br/><br>
+                Username:<br/><input type="text" name="CustUserId" /><br/>
+                Password:<br/><input type="password" name="CustPassword" /><br/><br>
 
                 <label for='agentid'>Agent Id:</label>
 
