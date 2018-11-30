@@ -22,7 +22,7 @@
     <h1>Registration successful.</h1>
     <h2><a href="index.php"><img src="images/button.png";></a></h2>
 </body>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <?php
     include "footer.php"
     ?>

@@ -22,7 +22,7 @@
     <h1>Order confirmed. Thank your for booking with us!</h1>
     <h2><a href="index.php"><img src="images/button.png";></a></h2>
 </body>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 
 <?php
