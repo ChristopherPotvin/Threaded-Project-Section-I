@@ -64,7 +64,7 @@
 
 							echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
 							echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
-							echo("<a href='verifySession.php?pckId=".$row[0]."' ><img class=\"w3-btn\" src='images/order.png' /></a>");
+							echo("<a class=\"w3-btn w3-black\" href='verifySession.php?pckId=".$row[0]."' ><strong>Order Now</strong></a>");
 						echo("</div>");
 
 						if (($count%4 == 0) || ($count == $n_rows))
