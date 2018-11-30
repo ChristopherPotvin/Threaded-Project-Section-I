@@ -5,7 +5,7 @@
     <?php
       include "head-links.php";
      ?>
-	  
+
     <?php
     	include "include/variables.php";
     	include "include/functions.php";
@@ -64,7 +64,7 @@
 
 							echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
 							echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
-							echo("<p><a href='verifySession.php?pckId=".$row[0]."' ><img src='images/order.png' /></a></p>");
+							echo("<a href='verifySession.php?pckId=".$row[0]."' ><img class=\"w3-btn\" src='images/order.png' /></a>");
 						echo("</div>");
 
 						if (($count%4 == 0) || ($count == $n_rows))
