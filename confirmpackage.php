@@ -17,6 +17,7 @@ include("include/functions.php");
 	if (purchasepackage($packages))
 	{
 		header("Location: SucOrd.php");
+		// Redirection to Success Order php page
 	}
 	else
 	{

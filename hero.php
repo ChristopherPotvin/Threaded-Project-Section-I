@@ -1,3 +1,6 @@
+ <!-- Author: Chris Potvin; Date: Nov 30th, 2018; 
+ Details: Hero element turned into a php page for easier insertion to the index page -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +12,11 @@
     <script src="main.js"></script>
 </head>
 
+        <!-- Start of the Hero Content -->
         <section class="section-content">
             <h1 class="section-title animate-pop-in">Where your dreams, become a reality.</h1>
         </section>
+        <!-- End of the Hero Content -->
      
 <body>
     

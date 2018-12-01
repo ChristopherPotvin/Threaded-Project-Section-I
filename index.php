@@ -1,11 +1,15 @@
+<!-- Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; Date: Nov 30th, 2018; 
+     Details: Full index page (home) including all of our elements and their respective php functions and css elements -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Travel Experts</title>
+    
     <?php
       include "head-links.php";
      ?>
-	  
+
     <?php
     	include "include/variables.php";
     	include "include/functions.php";
@@ -21,6 +25,7 @@
 
     	$sql = "Select * from packages where PkgStartDate <= NOW() and PkgEndDate >= NOW()";
     ?>
+
   </head>
 
 
@@ -30,6 +35,7 @@
       include "header.php";
     ?>
 
+    <!-- Hero Element here -->
     <?php
       include "hero.php";
       ?>

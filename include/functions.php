@@ -1,3 +1,6 @@
+<!-- Author: Chris Potvin, Alex Procyk and Jonathan Pirca; Date: Nov 30th, 2018;
+	 Details: PHP for Registration.php and Purchase Page */
+
 <?php
 //All the functions we are going to include
 function dbConnectJon()
@@ -64,6 +67,7 @@ function dbConnectJon()
 		$dbh->close();
 		return true;
 	}
+	// End of Chris Potvin's PHP functions for Registration page
 	// Start of Alex Procyk's PHP functions for Purchase page //
 
 	function purchasepackage($packages)

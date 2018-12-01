@@ -1,3 +1,7 @@
+// Author: Chris Potvin and Jonathan Pirca; Date: Nov 30th, 2018; 
+// Details: Field validation for email and postal code for the customer registration page (Registration.php)
+
+// Start of JS form validation
 function validate()
 {
       
@@ -5,6 +9,7 @@ function validate()
             if (!reg.test(document.forms[0].email.value))
             {
                   alert("Invalid email address");
+                  // Validating Email
                   return false;
             }
             document.forms[0].postal.value = document.forms[0].postal.value.toUpperCase();
@@ -12,8 +17,9 @@ function validate()
             if (!reg2.test(document.forms[0].postal.value))
             {
                   alert("Invalid postal code");
+                  // Validating Postal Code
                   return false;
             }
             return confirm("Continue Submitting?");
  }   
-// Chris Potvin's JS form validation for customer registration page
+// End of JS form validation for customer registration page

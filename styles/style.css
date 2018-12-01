@@ -1,3 +1,8 @@
+/* Author: Chris Potvin, Abel Rojas and Jonathan Pirca; Date: Nov 30th, 2018;
+   Details: CSS style for order packages, contact cards, and customer registration including responsivity and hover animation for the cards */
+
+
+/* Start of CSS for the order packages */
 .price
 {
 	color: red;
@@ -7,7 +12,9 @@
 	font-weight: bold;
 }
 
-/* CSS for the contact cards */
+/* End of CSS for the order packages */
+
+/* Start of CSS for the contact cards */
 * {
     box-sizing: border-box;
 
@@ -59,9 +66,9 @@
 .container {
     padding: 6px 20px;
 }
-/* CSS for the Contact Cards */
+/* End of CSS for the Contact Cards */
 
-/* CSS for the Customer Registration Form */
+/* Start of CSS for the Customer Registration Form */
 
 fieldset
 {
@@ -79,6 +86,7 @@ legend
 {
   font-size: 22px;
 }
+/* End of CSS for the Customer Registration Form */
 
 /* CSS for the footer */
 footer {

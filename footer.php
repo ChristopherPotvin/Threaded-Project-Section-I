@@ -1,9 +1,13 @@
+<!-- Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; Date: Nov 30th, 2018; Details: Footer php page included in all pages to make it dynamic with working icons
+provided by icons8.com and a weather widget by ibooked.ca -->
+
 <style>
   #widget {
     position: sticky;
     float: left;
     z-index:1;
   }
+  /* Abel Rojas and Jonathan Pirca formatting the css of the widget in the footer.php page  */
 </style>
 
 <hr>
@@ -16,6 +20,8 @@
    <h6 style="text-align: center; font-size: 11px; color: black;">Weather Widget by: ibooked.ca<br></h6>
    <h6 style="text-align: center; font-size: 11px; color: black;">&copy 2018 The Travel Experts <sup>TM</sup></h6>
 
+    <!-- Start of icons -->
+
      <a href="https://www.facebook.com/" target="_blank">
      <img id="icon" src="images/fb.png" style="float: right";></a>
      <a href="https://www.instagram.com/" target="_blank" >
@@ -23,9 +29,12 @@
      <a href="https://twitter.com/" target="_blank">
      <img id="icon" src="images/twitter.png" style="float: right";></a>
 
+    <!-- End of icons -->
 
+    <!-- weather widget start -->
     <a id="widget" target="_blank" href="https://www.booked.net/weather/calgary-30502">
       <img src="https://w.bookcdn.com/weather/picture/32_30502_1_1_34495e_250_2c3e50_ffffff_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=569&anc_id=70976"
-      alt="booked.net"/></a><!-- weather widget end -->
+      alt="booked.net"/></a>
+    <!-- weather widget end -->
 
 </footer>

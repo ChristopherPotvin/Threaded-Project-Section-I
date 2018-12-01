@@ -1,18 +1,27 @@
+ <!-- Author: Chris Potvin; Date: Nov 30th, 2018; 
+ Details: Customer Registration form that sends the customer data from the fields below in the mySQL data base 
+ with the action of "insertcustomer.php" -->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title>Customer Registration</title>
+    <!-- Abel Rojas links for the page -->
     <?php
         include "head-links.php";
     ?>
 
-  <script src="js/functions.js"></script>
+<!-- CP JS validation for postal code and email -->
+  <script src="js/functions.js"></script> 
 </head>
 
 <body>
+    <!-- Abel Rojas header for the  -->
 <?php
         include "header.php";
 ?>
+
+<!-- Start of CP form with modifications from Abel Rojas and Jonathan Pirca -->
         <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
         <form id="form" method="post" action="insertcustomer.php">
             <fieldset>
@@ -70,10 +79,12 @@
                     <option value='5'>Fred Smith</option>
                 </select>
 
-        <input type="submit" value="Register" onclick="return validate();"/>
+        <!-- Validation forms for if the customer is sure he wants to submit or reset -->
+        <input type="submit" value="Register" onclick="return validate();"/> 
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
     </fieldset>
 </form>
+<!-- End of the form -->
 </div>
 
 </body>

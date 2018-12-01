@@ -1,3 +1,6 @@
+<!-- Author: Chris Potvin and Abel Rojas; Date: Nov 30th, 2018;
+     Details: Insert customers into mySQL database php code  -->
+
 <?php
 // CP insert customers into mySQL database php code //
 include("include/variables.php");
@@ -6,7 +9,7 @@ include("include/functions.php");
 
 	if (!isset($_REQUEST["CustFirstName"]))
 	{
-		header("Location: registration.php");
+		header("Location: Registration.php");
 	}
 
 	$dbh = dbconnect();
@@ -25,5 +28,6 @@ include("include/functions.php");
 	{
 		print("Insert failed. Call Tech Support.");
 	}
+// End of CP insert customers into mySQL database php code //
 
 ?>

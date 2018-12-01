@@ -1,5 +1,7 @@
-/* Start of Hero Element */
+/* Author: Chris Potvin; Date: Nov 30th, 2018;
+   Details: CSS for the hero element as seen on the index page including an animation, pop-in for the hero text, hero image by Pexels.com */
 
+/* Start of Hero Element */
 section {
     align-items: center;
     display: flex;
@@ -56,5 +58,7 @@ section:after {
       transform: none;
     }
   }
+
+  /* End of Hero Element */
 
 
