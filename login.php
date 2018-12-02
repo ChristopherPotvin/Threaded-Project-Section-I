@@ -1,3 +1,10 @@
+<?php
+/*
+	Author: Jonathan Pirca
+	Date: Nov 29th, 2018; 
+	Details: Form to request user id and password in order to purchase a package.
+*/
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -33,20 +40,6 @@
     </div>
 		</div>
 
-		<?php
-			/*
-			echo("<div class='w3-row-padding w3-padding-16 w3-center' id='food'>");
-			echo("<div class='w3-quarter'>");
-			echo("<img src='images/" . $row[0] . ".jpg' alt='" . $row[1] . "' style='width:100%'>");
-			echo("<h3>" . $row[1] ."</h3>");
-			echo("<p>" . $row[4] . "</p>");
-			echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
-			echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
-			echo("<p><a href='verifySession.php' ><img src='images/order.jpg' /></a></p>");
-			echo("</div>");
-			echo ("</div>");
-			*/
-		?>
 
 	<!-- Footer -->
 
