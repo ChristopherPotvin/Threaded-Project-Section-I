@@ -35,7 +35,7 @@
 		}
 
 		// Look for if there is any user with the user ID submmited
-		$sql = "select CustPassword from customers where CustUserId = ?";
+		$sql = "select CustPassword, CustomerId from customers where CustUserId = ?";
 		$stmt = mysqli_prepare($conn,$sql);
 		mysqli_stmt_bind_param($stmt,"s",$user);
 
@@ -53,6 +53,7 @@
 			if ($password[0] == $pass)
 			{
 				$_SESSION["logged"] = true;
+				$_SESSION["CustID"] = $password[1];
 				mysqli_close($conn);
 				header("Location: form.php");
 			}
