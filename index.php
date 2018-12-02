@@ -11,18 +11,21 @@
      ?>
 
     <?php
+      // Common files to use
     	include "include/variables.php";
     	include "include/functions.php";
 
-
+      // Create connection to the DB
     	$conn = dbConnectJon();
 
-    	if (!$conn)
+      // Validate if the connection is done
+      if (!$conn)
     	{
     		print("Connection error: " . mysqli_connect_errno() . " : " . mysqli_connect_error . "<br />");
     		exit();
     	}
 
+      // Query to bring all the packages available
     	$sql = "Select * from packages where PkgStartDate <= NOW() and PkgEndDate >= NOW()";
     ?>
 
@@ -45,6 +48,7 @@
 		<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
 		<?php
+        // If there are results, start showing the packages
 				if ($result = $conn->query($sql))
 				{
 					$n_rows = $result->num_rows;
@@ -52,7 +56,8 @@
 
 					while ($row = $result->fetch_row())
 					{
-
+            
+            // Print the beginning of the row
 						if ($count%4 == 1)
 						{
 							echo("<div class='w3-row-padding w3-padding-16 w3-center' id='packages'>");
@@ -63,16 +68,19 @@
 							echo("<h3>" . $row[1] ."</h3>");
 							echo("<p>" . $row[4] . "</p>");
 
+              // Format the date from the DB
 							$dateA = new DateTime($row[2]);
 							$dateB = new DateTime($row[3]);
 							$dateFrom = $dateA->format('d') . "-" . $dateA->format('m') ."-" . $dateA->format('Y');
 							$dateto = $dateB->format('d') . "-" . $dateB->format('m') ."-" . $dateB->format('Y');
 
+              // Print date, Price, order button
 							echo("<p class='datePkg'>" . $dateFrom . " to " . $dateto . "</p>");
 							echo("<h2 class='price'>CAD $" . number_format($row[5],2,",","."). "</h2>");
 							echo("<a class=\"w3-btn w3-black\" href='verifySession.php?pckId=".$row[0]."' ><strong>Order Now</strong></a>");
 						echo("</div>");
 
+            // After 4 element or end of packages print closing row
 						if (($count%4 == 0) || ($count == $n_rows))
 						{
 							echo ("</div>");
