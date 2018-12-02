@@ -1,7 +1,7 @@
 <?php
 /*
 	Author: Jonathan Pirca
-	Date: Nov 29th, 2018; 
+	Date: Nov 29th, 2018;
 	Details: Form to request user id and password in order to purchase a package.
 */
 ?>
@@ -26,17 +26,17 @@
 		<div class='w3-row-padding w3-padding-16 w3-center' id='food'>
 		<form action="validateLogin.php" method="Post">
 			<div class="w3-section">
-				<label>User ID:</label>
+				<label>Username:</label>
 				<input class="w3-input w3-border" type="text" name="user" required>
 			</div>
 			<div class="w3-section">
-				<label>Password</label>
+				<label>Password:</label>
 				<input class="w3-input w3-border" type="password" name="pass" required>
 			</div>
 			<button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Login</button>
 		</form>
     <div class="w3-section">
-      <label>Not a registered customer yet?, click <a href="Registration.php">here!</a></label>
+      <p>Not a registered customer yet?, click <a href="Registration.php">here!</a></p>
     </div>
 		</div>
 
