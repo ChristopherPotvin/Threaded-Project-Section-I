@@ -1,11 +1,11 @@
-<!-- Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; Date: Nov 30th, 2018; 
+<!-- Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; Date: Nov 30th, 2018;
      Details: Full index page (home) including all of our elements and their respective php functions and css elements -->
 
 <!DOCTYPE html>
 <html>
   <head>
     <title>Travel Experts</title>
-    
+
     <?php
 		session_cache_expire(10);
 		session_start();
@@ -18,7 +18,7 @@
     	include "include/functions.php";
 
       // Create connection to the DB
-    	$conn = dbConnectJon();
+    	$conn = dbconnect();
 
       // Validate if the connection is done
       if (!$conn)
@@ -58,13 +58,13 @@
 
 					while ($row = $result->fetch_row())
 					{
-            
+
             // Print the beginning of the row
 						if ($count%4 == 1)
 						{
 							echo("<div class='w3-row-padding w3-padding-16 w3-center' id='packages'>");
 						}
-						
+
 						// Save values into array to be used in the sessin variable
 						$infoPackage[$row[0]][0] = $row[1];
 						$infoPackage[$row[0]][1] = $row[2];
@@ -72,8 +72,8 @@
 						$infoPackage[$row[0]][3] = $row[4];
 						$infoPackage[$row[0]][4] = $row[5];
 						$infoPackage[$row[0]][5] = $row[6];
-						
-						
+
+
 						echo("<div class='w3-quarter'>");
 							echo("<img src='images/" . $row[0] . ".jpg' alt='" . $row[1] . "' style='width:100%'>");
 							echo("<h3>" . $row[1] ."</h3>");
