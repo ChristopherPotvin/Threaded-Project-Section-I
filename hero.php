@@ -9,7 +9,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/mainhero.css" />
-    <script src="main.js"></script>
+    
 </head>
 
         <!-- Start of the Hero Content -->

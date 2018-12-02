@@ -1,7 +1,13 @@
-<!-- Author: Chris Potvin, Alex Procyk and Jonathan Pirca; Date: Nov 30th, 2018;
-     Details: Variables for your respective PHP pages*/
-     
 <?php
+/*
+	Author: Chris Potvin, Alex Procyk and Jonathan Pirca; 
+	Date: Nov 30th, 2018;
+    Details: Variables for your respective PHP pages
+*/
+?>
+
+<?php
+     
 // Database declaration for order packages on index page, JP
 $servername = "localhost";
 $username = "jpirca";

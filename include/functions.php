@@ -1,6 +1,11 @@
-<!-- Author: Chris Potvin, Alex Procyk and Jonathan Pirca; Date: Nov 30th, 2018;
-	 Details: PHP for Registration.php and Purchase Page */
-
+<?php
+	/*
+	Author: Chris Potvin, Alex Procyk and Jonathan Pirca; 
+	Date: Nov 30th, 2018;
+	Details: PHP for Registration.php and Purchase Page 
+	 
+*/
+?>
 <?php
 //All the functions we are going to include
 function dbConnectJon()
@@ -86,7 +91,8 @@ function dbConnectJon()
 		$destination = 'Vancouver';
 		$bookingdate = '2016-02-22';
 		$bookingnum = 'SFO97';
-		$customerid = '144';
+		$customerid = '138';
+		//$customerid = $_SESSION["CustID"];
 		$itineraryno = '301';
 		$tripstart = '2016-03-17 00:00:00';
 		$tripend = '2016-04-02 00:00:00';
