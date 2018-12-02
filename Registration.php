@@ -1,5 +1,5 @@
- <!-- Author: Chris Potvin; Date: Nov 30th, 2018; 
- Details: Customer Registration form that sends the customer data from the fields below in the mySQL data base 
+ <!-- Author: Chris Potvin; Date: Nov 30th, 2018;
+ Details: Customer Registration form that sends the customer data from the fields below in the mySQL data base
  with the action of "insertcustomer.php" -->
 
 <!DOCTYPE html>
@@ -12,11 +12,11 @@
     ?>
 
 <!-- CP JS validation for postal code and email -->
-  <script src="js/functions.js"></script> 
+  <script src="js/functions.js"></script>
 </head>
 
 <body>
-    <!-- Abel Rojas header for the  -->
+    <!-- Abel Rojas header for the page -->
 <?php
         include "header.php";
 ?>
@@ -80,7 +80,7 @@
                 </select>
 
         <!-- Validation forms for if the customer is sure he wants to submit or reset -->
-        <input type="submit" value="Register" onclick="return validate();"/> 
+        <input type="submit" value="Register" onclick="return validate();"/>
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
     </fieldset>
 </form>

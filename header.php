@@ -1,7 +1,7 @@
-<!-- 
-    Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; 
-    Date: Nov 28th, 2018; 
-    Details: Common header for all pages 
+<!--
+    Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas;
+    Date: Nov 28th, 2018;
+    Details: Common header for all pages
 -->
 <header>
   <!-- Sidebar (hidden by default) -->
@@ -20,19 +20,18 @@
     <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
       <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
       <div class="w3-center w3-padding-16"><strong>Travel Experts</strong></div>
-      <!-- weather widget start -->
     </div>
   </div>
 
   <script>
 // Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
 
 </header>
