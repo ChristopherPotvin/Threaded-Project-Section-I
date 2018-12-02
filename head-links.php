@@ -1,3 +1,9 @@
+<!-- 
+    Author: Alex Procyk, Chris Potvin, Jonathan Pirca and Abel Rojas; 
+    Date: Nov 28th, 2018; 
+    Details: External files/frameworks used 
+-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
