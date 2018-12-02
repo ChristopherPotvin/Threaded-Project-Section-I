@@ -44,7 +44,7 @@
 	<!-- Footer -->
 
 </body>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
 	<?php
 		require("footer.php");
 	?>
