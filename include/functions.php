@@ -77,10 +77,10 @@ function dbConnectJon()
 
 	function purchasepackage($packages)
 	{
-		session_cache_expire(10);
+		//session_cache_expire(10);
 		session_start();
 
-		$var = NULL;
+		
 		$tc = $packages["TravelerCount"];
 		$cc = $packages["CCName"];
 		$cn = $packages["CCNumber"];
@@ -91,8 +91,6 @@ function dbConnectJon()
 		$destination = 'Vancouver';
 		$bookingdate = '2016-02-22';
 		$bookingnum = 'SFO97';
-		$customerid = '138';
-		//$customerid = $_SESSION["CustID"];
 		$itineraryno = '301';
 		$tripstart = '2016-03-17 00:00:00';
 		$tripend = '2016-04-02 00:00:00';
@@ -104,6 +102,7 @@ function dbConnectJon()
 		$productsupplierid = '11';
 		$regionid = 'NA';
 		$packageid = $_SESSION["packages"];
+		$customerid = $_SESSION["customerNumber"];
 
 		$dbh = dbconnect();
 		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");

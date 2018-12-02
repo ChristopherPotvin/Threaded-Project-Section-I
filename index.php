@@ -7,6 +7,8 @@
     <title>Travel Experts</title>
     
     <?php
+		session_cache_expire(10);
+		session_start();
       include "head-links.php";
      ?>
 
@@ -62,7 +64,15 @@
 						{
 							echo("<div class='w3-row-padding w3-padding-16 w3-center' id='packages'>");
 						}
-
+						
+						// Save values into array to be used in the sessin variable
+						$infoPackage[$row[0]][$count] = $row[1];
+						$infoPackage[$row[0]][$count] = $row[2];
+						$infoPackage[$row[0]][$count] = $row[3];
+						$infoPackage[$row[0]][$count] = $row[4];
+						$infoPackage[$row[0]][$count] = $row[5];
+						
+						
 						echo("<div class='w3-quarter'>");
 							echo("<img src='images/" . $row[0] . ".jpg' alt='" . $row[1] . "' style='width:100%'>");
 							echo("<h3>" . $row[1] ."</h3>");
@@ -93,6 +103,7 @@
 				/* close connection */
 				$conn->close();
 
+				$_SESSION["packagesAva"] = $infoPackage;
 		?>
 
 			<!-- Start of About Section // Chris Potvin -->

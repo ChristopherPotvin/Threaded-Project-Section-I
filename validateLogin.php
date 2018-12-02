@@ -6,6 +6,8 @@
 */
 ?>
 <?php
+	session_cache_expire(10);
+	session_start();
 	// Common files to use
 	include "include/variables.php";
 	include "include/functions.php";
@@ -53,7 +55,7 @@
 			if ($password[0] == $pass)
 			{
 				$_SESSION["logged"] = true;
-				$_SESSION["CustID"] = $password[1];
+				$_SESSION["customerNumber"] = $password[1];
 				mysqli_close($conn);
 				header("Location: form.php");
 			}
