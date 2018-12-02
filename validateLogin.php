@@ -1,7 +1,7 @@
 <?php
 /*
 	Author: Jonathan Pirca
-	Date: Nov 29th, 2018; 
+	Date: Nov 29th, 2018;
     Details: Get user and pass form loging form and validate.
 */
 ?>
@@ -9,7 +9,7 @@
 	session_cache_expire(10);
 	session_start();
 	// Common files to use
-	include "include/variables.php";
+//	include "include/variables.php";
 	include "include/functions.php";
 
 
@@ -22,12 +22,12 @@
 	else
 	{
 		// Get user and pass. The pass is encrypted in order to compare with the DB
-		$user = $_REQUEST["user"];
+		$username = $_REQUEST["user"];
 		$pass = hash("ripemd160",$_REQUEST["pass"]);
 
 
 		// Create a connection
-		$conn = dbconnectJon();
+		$conn = dbconnect();
 
 		// Check if connection was made
 		if (!$conn)
@@ -39,7 +39,7 @@
 		// Look for if there is any user with the user ID submmited
 		$sql = "select CustPassword, CustomerId from customers where CustUserId = ?";
 		$stmt = mysqli_prepare($conn,$sql);
-		mysqli_stmt_bind_param($stmt,"s",$user);
+		mysqli_stmt_bind_param($stmt,"s",$username);
 
 		// if error preparing the stament
 		if (!mysqli_stmt_execute($stmt))

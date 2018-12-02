@@ -1,25 +1,13 @@
 <?php
 	/*
-	Author: Chris Potvin, Alex Procyk and Jonathan Pirca; 
+	Author: Chris Potvin, Alex Procyk, Abel Rojas and Jonathan Pirca;
 	Date: Nov 30th, 2018;
-	Details: PHP for Registration.php and Purchase Page 
-	 
-*/
-?>
-<?php
-//All the functions we are going to include
-function dbConnectJon()
-{
-	global $servername, $username, $password, $dbname;
-
-	return new mysqli($servername,$username,$password,$dbname);
-}
-
+	Details: PHP for connecting to database, Registration.php and Purchase page;
+	*/
 ?>
 
 <?php
-// Start of Chris Potvin's PHP functions for Customer Registration page //
-
+// Function for connecting to database
 	include("variables.php");
 
 	function dbconnect()
@@ -34,7 +22,7 @@ function dbConnectJon()
 		return $dbh;
 	}
 
-
+// Start of Chris Potvin's PHP function for Customer Registration page //
 	function insertcustomer($customers)
 	{
 		$fn = $customers["CustFirstName"];
@@ -79,13 +67,13 @@ function dbConnectJon()
 	{
 		//session_cache_expire(10);
 		session_start();
-		
+
 		// Get all packages from the session
 		$infoPackage = $_SESSION["packagesAva"];
 		$packageid = $_SESSION["packages"];
 		$customerid = $_SESSION["customerNumber"];
 
-		
+
 		$tc = $packages["TravelerCount"];
 		$cc = $packages["CCName"];
 		$cn = $packages["CCNumber"];
@@ -106,7 +94,7 @@ function dbConnectJon()
 		$feeid = 'NC';
 		$productsupplierid = '11';
 		$regionid = 'NA';
-		
+
 
 		$dbh = dbconnect();
 
