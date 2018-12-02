@@ -32,7 +32,7 @@ $dbname = "travelexperts";
 
 $host = "localhost";
 $user = "root";
-$pwd = "abcd1234";
+$pwd = "";
 $dbname = "travelexperts";
 // End of declaration for package purchase form, AP //
 ?>

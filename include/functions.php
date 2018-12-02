@@ -79,6 +79,11 @@ function dbConnectJon()
 	{
 		//session_cache_expire(10);
 		session_start();
+		
+		// Get all packages from the session
+		$infoPackage = $_SESSION["packagesAva"];
+		$packageid = $_SESSION["packages"];
+		$customerid = $_SESSION["customerNumber"];
 
 		
 		$tc = $packages["TravelerCount"];
@@ -88,29 +93,27 @@ function dbConnectJon()
 		$fc = $packages["ClassId"];
 		$tt = $packages["TripTypeId"];
 
-		$destination = 'Vancouver';
-		$bookingdate = '2016-02-22';
+		$destination = $infoPackage[$packageid][0];
+		$bookingdate = date();
 		$bookingnum = 'SFO97';
 		$itineraryno = '301';
-		$tripstart = '2016-03-17 00:00:00';
-		$tripend = '2016-04-02 00:00:00';
-		$description = 'Vancouver/Sydney';
-		$baseprice = '495.0000';
-		$agencycommission = '98.6000';
+		$tripstart = $infoPackage[$packageid][1];
+		$tripend = $infoPackage[$packageid][2];
+		$description = $infoPackage[$packageid][0];
+		$baseprice = $infoPackage[$packageid][4];
+		$agencycommission = $infoPackage[$packageid][5];
 		$bookingid = '34';
 		$feeid = 'NC';
 		$productsupplierid = '11';
 		$regionid = 'NA';
-		$packageid = $_SESSION["packages"];
-		$customerid = $_SESSION["customerNumber"];
+		
 
 		$dbh = dbconnect();
-		// $dbh = mysqli_connect("localhost", "root", "", "travelexperts");
 
 		$sql = "INSERT INTO `bookings` (`BookingDate`, `BookingNo`,`TravelerCount`, `CustomerId`, `TripTypeId`, `PackageId`) VALUES (?, ?, ?, ?, ?, ?)";
 		$sql2 = "INSERT INTO `bookingdetails` (`ItineraryNo`, `TripStart`, `TripEnd`, `Description`, `Destination`, `BasePrice`, `AgencyCommission`, `BookingId`, `RegionId`,`ClassId`, `FeeId`, `ProductSupplierId`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		$sql3 = "INSERT INTO `creditcards` (`CCName`, `CCNumber`, `CCExpiry`, `CustomerId`) VALUES (?, ?, ?, ?)";
-		//$statement = mysqli_stmt_prepare($dbh, $sql);
+
 		$stmt = $dbh->prepare($sql);
 		$stmt2 = $dbh->prepare($sql2);
 		$stmt3 = $dbh->prepare($sql3);

@@ -66,11 +66,12 @@
 						}
 						
 						// Save values into array to be used in the sessin variable
-						$infoPackage[$row[0]][$count] = $row[1];
-						$infoPackage[$row[0]][$count] = $row[2];
-						$infoPackage[$row[0]][$count] = $row[3];
-						$infoPackage[$row[0]][$count] = $row[4];
-						$infoPackage[$row[0]][$count] = $row[5];
+						$infoPackage[$row[0]][0] = $row[1];
+						$infoPackage[$row[0]][1] = $row[2];
+						$infoPackage[$row[0]][2] = $row[3];
+						$infoPackage[$row[0]][3] = $row[4];
+						$infoPackage[$row[0]][4] = $row[5];
+						$infoPackage[$row[0]][5] = $row[6];
 						
 						
 						echo("<div class='w3-quarter'>");
