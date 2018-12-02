@@ -1,7 +1,13 @@
+<?php
+	//Author: Alex Procyk and Jonathan Pirca;
+	//Date: Nov 30th, 2018;
+	//Details: Form for purchase/confirmation of package for a registered and logged-in user
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-
+	<!-- inclusion of title and style elements -->
     <title>Travel Experts</title>
 	<?php
       include "head-links.php";
@@ -10,19 +16,22 @@
 </head>
 
 <header>
+	<!-- inclusion of header -->
 	<?php
 		include("header.php");
 	?>
 </header>
 
 <body>
+<!-- padding details-->
   <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
   <fieldset>
     <legend>Confirm Your Details to Purchase!</legend>
     <form id="purchase" method="post" action="confirmpackage.php">
 
 
-
+		<!-- start of form area -->
+		<!-- all selection and entry lines in the form included here -->
         Traveller Count:<br/><input type="text" id='TravCt' name='TravelerCount' required='required' size="100"/><br/>
 
         Credit Card Name:<br/><select id='CardName' name="CCName" required="required"/><br/>
@@ -59,10 +68,11 @@
 			<option value='L'>Leisure</option>
 			<option value='G'>Group</option>
 		</select>
-
+        <!-- Validation selections for if the customer is sure he wants to finalize purchase, or reset -->
 		<input type="submit" value="Purchase"/>
         <input type="reset" onclick="return confirm('Are you sure you want to reset?');" />
 	  </form>
+	  	<!-- end of form elements -->
 	</fieldset>
  </div>
 </body>
