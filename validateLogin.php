@@ -44,6 +44,7 @@
 		// if error preparing the stament
 		if (!mysqli_stmt_execute($stmt))
 		{
+			$_SESSION["mesageLogin"] = "There is a problem with the system. Please contact support";
 			mysqli_close($conn);
 			header("Location: login.php");
 		}
@@ -56,17 +57,20 @@
 			{
 				$_SESSION["logged"] = true;
 				$_SESSION["customerNumber"] = $password[1];
+				$_SESSION["mesageLogin"] = "";
 				mysqli_close($conn);
 				header("Location: form.php");
 			}
 			else
 			{
+				$_SESSION["mesageLogin"] = "User ID or Password are incorrect";
 				mysqli_close($conn);
 				header("Location: login.php");
 			}
 		}
 		else
 		{
+			$_SESSION["mesageLogin"] = "User ID or Password are incorrect";
 			mysqli_close($conn);
 			header("Location: login.php");
 		}

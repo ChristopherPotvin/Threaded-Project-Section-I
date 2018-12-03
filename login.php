@@ -10,6 +10,8 @@
   <head>
     <title>Travel Experts</title>
 	<?php
+		session_cache_expire(10);
+		session_start();
 		include "head-links.php";
     ?>
   </head>
@@ -24,6 +26,7 @@
 	<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 	<br><br><br><br><br>
 		<div class='w3-row-padding w3-padding-16 w3-center' id='food'>
+		<p><?php echo $_SESSION["mesageLogin"]; ?></p>
 		<form action="validateLogin.php" method="Post">
 			<div class="w3-section">
 				<label>Username:</label>
