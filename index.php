@@ -9,6 +9,7 @@
     <?php
 		session_cache_expire(10);
 		session_start();
+		$_SESSION["mesageLogin"] = "";
       include "head-links.php";
      ?>
 
